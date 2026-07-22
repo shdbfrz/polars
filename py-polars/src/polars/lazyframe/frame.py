@@ -7547,10 +7547,9 @@ naive plan: (run LazyFrame.explain(optimized=True) to see the optimized plan)
         name
             Name of the index column.
         offset
-            Start the index at this offset. Cannot be negative.
+            Start the index at this offset. Cannot be negative.           
 
         Warnings
-
         --------
         Using this function can have a negative effect on query performance.
         This may, for instance, block predicate pushdown optimization.
